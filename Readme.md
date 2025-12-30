@@ -1,4 +1,4 @@
-# How to Launch the SSC Council Website
+# How to self host this repo
 
 This guide will help you start the Social Service Council website application.
 
