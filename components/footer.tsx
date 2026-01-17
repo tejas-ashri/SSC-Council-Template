@@ -19,15 +19,32 @@ export default function Footer() {
               community service.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+            <Link
+                href="https://www.facebook.com/ssc.iitbhuvaranasi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link
+                href="https://www.instagram.com/ssc.iitbhu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+
+              <Link
+                href="https://www.linkedin.com/company/ssc-iitbhu/?originalSubdomain=in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </Link>
+
               <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />
               </Link>
